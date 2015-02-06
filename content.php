@@ -22,8 +22,19 @@ include("inc/header.php");
         <p>So on a roller coaster, the cart and tracks supply the Normal Force for the riders. As the riders reach the peak of the loop, they are upside down. Gravity also pulls straight down, nothing unusual about that. However, out of the ordinary is the direction the Normal Force is being applied. We often associated Normal Force with always facing upwards, because most of our surfaces are flat and horizontal, but Normal Force is always perpendicular to the surface. So when a person is upside down, the Normal Force and Gravity are acting in the same direction. This results in a perceived decreased weight. The inverse applies when a person has reached the bottom of the roller coaster.</p>
     </div>
     
-    <div class="accordion-title"><h3>Energy</h3></div>
-    <div class="accordion-content">2</div>
+    <div class="accordion-title">
+        
+        <h3>Energy</h3>
+        <p>Energy is present all around us. It's there when we're riding in a car or riding a coaster. It can take on many different forms and affect us in a large range of ways. Roller coasters demonstrate the change between what energy we can utilize and the energy we are currently making use of beautifully. In it we can see how at each point during the ride a different level of energy is being exerted, in addition to the countless trials and errors coming together to make a passable loop.</p>
+        <strong>Click me to see more!</strong>
+        
+    </div>
+    <div class="accordion-content">
+        
+        <p>In physics, there's this thing known as the conservation of energy. The basic principle is that although energy may change forms and transpose different mediums, it will always be there. It's kind of like matter where it will never be destroyed, only changed. You may have heard of potential energy, or the energy that an object possesses, allowing it to do work. Here we are going to discuss it in terms of <i>mgh</i> or  mass times gravity times height.</p>
+        <p>If you take a look at a roller coaster's loop, you might notice it isn't a perfect circle. The upside down tear shape is actually known as a clothoid. This shape is special because of the difference in radius at the top and bottom. This interesting concept wasn't the first choice for designers. Initially they chose to use perfect circles. However, over time, a multitude of problems arose. If the riders weren't launched at high enough speeds they would fall off the track as they became inverted. Seems like a simple solution. Just make them go faster right? Wrong. In order to reach a high enough speed to complete the loop, the forces would become beyond a safe limit. The designers consistently found that their riders were becoming injured.</p>
+
+    </div>
     
     <div class="accordion-title"><h3>Acceleration</h3></div>
     <div class="accordion-content">3</div>
