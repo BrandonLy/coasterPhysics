@@ -1,3 +1,5 @@
+<?php if($section == 'index') { echo('</div>'); } ?>
+
 <footer>
     <p>&copy; <?php echo date('Y'); ?></p>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
