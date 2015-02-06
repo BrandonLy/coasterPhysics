@@ -90,3 +90,13 @@ header {
     height: 80px;
     width: 100%;
 }
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+sub{
+    vertical-align: sub;
+    font-size: smaller;
+}
