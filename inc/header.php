@@ -9,13 +9,13 @@
         
         <?php
             if($section == 'index') { 
-                echo('<div id="home-wrapper">');
+                echo('<div id="home-picture">');
             }
         ?>
         
         <header class="topHeader">
             <div id="header-wrapper">
-                <div id="header-logo"></div>
+                <a href="<?php if($section == 'index'){echo '#';} else {echo 'index.php';}?>"><div id="header-logo"></div></a>
                 <div id="nav">
 
                     <ul>
@@ -32,7 +32,9 @@
         </header>
         
         <?php
-            if($section != 'index') { 
+            if($section == 'index') { 
+                echo('</div>');
+            } else { 
                 echo('<div id="header-spacer"></div>');
             }
         ?>
