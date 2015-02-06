@@ -1,3 +1,4 @@
 # coasterPhysics
 A website designed to teach the physics behind roller coasters
-Created by Sara mei Kalaoram, Jonathan Walton, and Brandon Ly
+Website by Sara mei Kalaoram, Jonathan Walton, and Brandon Ly
+Animation work done by Iris Zervoulakos, Maria Gamboa, and Brandon Azar
