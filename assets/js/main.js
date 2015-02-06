@@ -1,0 +1,1 @@
+$(".accordion-content").hide();
