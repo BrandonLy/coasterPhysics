@@ -1,21 +1,52 @@
-@@ -14,7 +14,8 @@ html, body {
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #nav ul {
-    padding-top: 30px;
     padding-top: 35px;
     font-weight: 100;
 }
 
 #nav ul li {
-@@ -44,18 +45,25 @@ html, body {
+    list-style-type: none;
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    margin-left: 20px;
+}
+
+#nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.accordion-content {
+    display:none;
+}
+
+.accordion-title {
     cursor: pointer;
 }
 
-#home-wrapper {
 #home-picture {
     width: 100%;
-    height: 100%;
     height: 60%;
     background-image: url(../img/home-bg.jpg);
     background-size: cover;
@@ -29,7 +60,6 @@
 
 header {
     width: 100%;
-    height: 80px;
     height: 90px;
     top: 0;
     position: fixed;
@@ -37,32 +67,39 @@ header {
 }
 
 .topHeader {
-@@ -77,7 +85,8 @@ header {
+    background: transparent;
+    transition: all .35s;
+}
+
+.scrollHeader {
+    background: rgba(0, 0, 0, .5);
+    transition: all .35s;
+}
+
+#nav {
+    float: right;
+}
+
+#header-logo {
+    float: left;
     width: 70px;
     height: 70px;
     background-image: url(../img/header-logo.png);
-    margin-top: 5px;
     margin-top: 10px;
     cursor: pointer;
 }
 
 #header-wrapper {
-@@ -91,6 +100,7 @@ header {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-spacer {
+    height: 80px;
     width: 100%;
 }
 
-<<<<<<< HEAD
-sup {
-    vertical-align: super;
-    font-size: smaller;
-@@ -99,4 +109,47 @@ sup {
-sub{
-    vertical-align: sub;
-    font-size: smaller;
-}
-\ No newline at end of file
-}
-=======
 #tabs-wrapper {
     height: 100%;
     width: 1300px;
@@ -104,4 +141,13 @@ footer {
 footer p {
     text-align: center;
 }
->>>>>>> origin/master
+
+sub{
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
