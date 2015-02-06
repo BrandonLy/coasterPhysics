@@ -4,3 +4,9 @@ html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del
     list-style-type: none;
     display: inline;
 }
+.accordion-content{
+    display:none;
+}
+.accordion-title{
+    cursor: pointer;
+}
