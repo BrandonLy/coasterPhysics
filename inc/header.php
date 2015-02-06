@@ -2,16 +2,13 @@
 <html>
     <head>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="assets/css/style.css">
         <title><?php echo $pageTitle; ?></title>
     </head>
     <body>
         
-        <?php
-            if($section == 'index') { 
-                echo('<div id="home-picture">');
-            }
-        ?>
+        <div id="page-picture" class="<?php echo($section . '-picture'); ?>">
         
         <header class="topHeader">
             <div id="header-wrapper">
@@ -35,6 +32,6 @@
             if($section == 'index') { 
                 echo('</div>');
             } else { 
-                echo('<div id="header-spacer"></div>');
+                echo('<center class="verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></center></div>');
             }
         ?>
