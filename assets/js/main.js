@@ -1,6 +1,6 @@
 $(".accordion-content").hide();
 $(".accordion-title").click(function () {
-    $(this).next().toggle("slow");
+    $(this).next().toggle("fast");
 });
 
 $(document).scroll(function() { 
