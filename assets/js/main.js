@@ -1,10 +1,12 @@
 $(".accordion-content").hide();
 $(".accordion-title").click(function () {
+    $accordions = $(".accordion-content");
+    $accordions.not($(this)).hide("fast");
     $(this).next().toggle("fast");
-    if($(".accordion-title").hasClass("closed")) {
-        $(".accordion-title").removeClass("closed").addClass("open");
+    if($(this).hasClass("closed")) {
+        $(this).removeClass("closed").addClass("open");
     } else {
-        $(".accordion-title").removeClass("open").addClass("closed");
+        $(this).removeClass("open").addClass("closed");
     }
 });
 
