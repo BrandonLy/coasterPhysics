@@ -28,6 +28,7 @@ include("inc/header.php");
             <div class="accordion-content">
                 <p>In physics, there's this thing known as the conservation of energy. The basic principle is that although energy may change forms and transpose different mediums, it will always be there. It's kind of like matter where it will never be destroyed, only changed. You may have heard of potential energy, or the energy that an object possesses, allowing it to do work. Here we are going to discuss it in terms of <i>mgh</i> or  mass times gravity times height.</p>
             <p>If you take a look at a roller coaster's loop, you might notice it isn't a perfect circle. The upside down tear shape is actually known as a clothoid. This shape is special because of the difference in radius at the top and bottom. This interesting concept wasn't the first choice for designers. Initially they chose to use perfect circles. However, over time, a multitude of problems arose. If the riders weren't launched at high enough speeds they would fall off the track as they became inverted. Seems like a simple solution. Just make them go faster right? Wrong. In order to reach a high enough speed to complete the loop, the forces would become beyond a safe limit. The designers consistently found that their riders were becoming injured.</p>
+                <p></p>
             </div>
 
             <h3 class="focusTitle">Acceleration</h3>
