@@ -78,19 +78,19 @@ html, body {
 }
 
 .index-picture {
-    background-image: url(../img/home-bg.jpg);
+    background-image: url(../img/home-bg-compressor.jpg);
 }
 
 .video-picture {
-    background-image: url(../img/video-bg.jpg);
+    background-image: url(../img/video-bg-compressor.jpg);
 }
 
 .animation-picture {
-    background-image: url(../img/animation-bg.jpg);
+    background-image: url(../img/animation-bg-compressor.jpg);
 }
 
 .content-picture {
-    background-image: url(../img/content-bg.jpg);
+    background-image: url(../img/content-bg-compressor.jpg);
 }
 
 #home-tabs {
