@@ -20,9 +20,11 @@
         <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
         <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="assets/favicons/manifest.json">
+        <meta charset="utf-8">
         <meta name="msapplication-TileColor" content="#2b5797">
-        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+        <meta name="msapplication-TileImage" content="assets/favicons/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
+        <!-- End Favicons -->
     </head>
     <body>
 
