@@ -15,7 +15,7 @@
         <a href="animation.php">
             <div id="tab-2" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
-                    <img src="assets/img/picto_philo.png" width="100%" class="tab-image">
+                    <img src="assets/img/model.png" width="100%" class="tab-image">
                     <h3 class="tabTitle">our animation</h3>
                     <p class="tabBlurb">Take a look at how our animators recreated the coaster and how the physics played their part!</p>
                 </div>

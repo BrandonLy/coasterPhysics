@@ -93,9 +93,13 @@ html, body {
     background-image: url(../img/content-bg-compressor.jpg);
 }
 
+.contact-picture {
+    background-image: url(../img/contact-bg-compressor.jpg);
+}
+
 #home-tabs {
     width: 100%;
-    height: 35%;
+    min-height: 300px;
     background-color: #fff7e8;
 }
 
