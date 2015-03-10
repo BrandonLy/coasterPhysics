@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+
     if ($_POST["address"] != "") {
         echo "Your form submission has an error.";
         exit;
