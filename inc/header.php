@@ -50,6 +50,7 @@
                         <a href="<?php if($section == 'video'){echo '#';} else {echo 'video.php';}?>" <?php if($section=="video" ) {echo "class='on'";}?>><li>Coaster Footage</li></a>
                         <a href="<?php if($section == 'animation'){echo '#';} else {echo 'animation.php';}?>" <?php if($section=="animation" ) {echo "class='on'";}?>><li>Our Animation</li></a>
                         <a href="<?php if($section == 'content'){echo '#';} else {echo 'content.php';}?>" <?php if($section=="content" ) {echo "class='on'";}?>><li>Physics and More</li></a>
+                        <a href="<?php if($section == 'contact'){echo '#';} else {echo 'contact.php';}?>" <?php if($section=="contact" ) {echo "class='on'";}?>><li>Contact Us</li></a>
 
                     </ul>
 

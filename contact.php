@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_body = $email_body . "Message: " . $message;
 
     $mail->SetFrom($email, $name);
-    $address = "brandon@brandonly.me";
+    $address = "lypanda1@gmail.com";
     $mail->AddAddress($address);
     $mail->Subject    = "Physics Contact Submission " . $name;
     $mail->MsgHTML($email_body);

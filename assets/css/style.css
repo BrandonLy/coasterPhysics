@@ -374,6 +374,7 @@ sup {
 
 .tab-image {
     cursor: pointer;
+    width: 100%;
 }
 
 #page-title {

@@ -415,3 +415,51 @@ footer div p a {
 footer div p a:hover {
     text-decoration: underline;
 }
+
+#home-tabs {
+    width: 100%;
+}
+
+#tabs-wrapper {
+    width: 100%;
+}
+
+#tabs-wrapper a {
+    text-decoration: none;
+}
+
+.homeTab {
+    height: 300px;
+    background: #fff7e8;
+    border-bottom: 1px solid #f7ead2;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeTab:hover {
+    background: #faf0dd;
+    border-bottom: 1px solid #f2e4ca;
+}
+
+.tab-image {
+    max-height: 100px;
+}
+
+.tabTitle {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.35em;
+}
+
+.tabBlurb {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}

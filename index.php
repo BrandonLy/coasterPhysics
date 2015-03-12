@@ -6,7 +6,7 @@
         <a href="video.php">
             <div id="tab-1" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
-                    <img src="assets/img/picto_philo.png" width="100%" class="tab-image">
+                    <center><img src="assets/img/picto_philo.png" class="tab-image"></center>
                     <h3 class="tabTitle">coaster footage</h3>
                     <p class="tabBlurb">See the footage behind how roller coasters work and experience a coaster with the team!</p>
                 </div>
@@ -15,7 +15,7 @@
         <a href="animation.php">
             <div id="tab-2" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
-                    <img src="assets/img/model.png" width="100%" class="tab-image">
+                    <center><img src="assets/img/model.png" class="tab-image"></center>
                     <h3 class="tabTitle">our animation</h3>
                     <p class="tabBlurb">Take a look at how our animators recreated the coaster and how the physics played their part!</p>
                 </div>
@@ -24,7 +24,7 @@
         <a href="content.php">
             <div id="tab-3" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
-                    <img src="assets/img/picto_philo.png" width="100%" class="tab-image">
+                    <center><img src="assets/img/picto_philo.png" class="tab-image"></center>
                     <h3 class="tabTitle">physics and more</h3>
                     <p class="tabBlurb">Learn more in depth about how roller coasters actually work, from centripedal force to energy!</p>
                 </div>
