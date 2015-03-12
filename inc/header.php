@@ -57,4 +57,12 @@
             </div>
         </header>
 
-        <?php if($section=='index' ) { echo( '</div>'); } else { echo( '<center class="verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></center></div>'); } ?>
+        <?php
+            if ($section=='index') {
+                echo( '</div>');
+            } else if ($section=='contact') {
+                echo('<center class="verticalAlign"><img src="assets/img/characters-contact.png" height="50%"></center></div>');
+            } else {
+                echo( '<center class="verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></center></div>');
+            }
+        ?>

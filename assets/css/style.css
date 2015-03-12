@@ -464,3 +464,79 @@ sup {
 #mobile-menu-button {
     display: none;
 }
+
+#contact-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#contact-form input:not(:last-child) {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#contact-form input:not(:last-child):focus {
+    border: 1px solid rgba(0, 0, 0, .35);
+}
+
+#contact-form input {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#contact-form input:last-child {
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25em;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #408dd9;
+    transition: .5s all;
+    color: white;
+    cursor: pointer;
+}
+
+#contact-form input:last-child:hover {
+    background-color: #377fc6;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+#contact-form textarea {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    padding: 5px;
+    resize: vertical;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    value:
+}
+
+#contact-form textarea:focus {
+    border: 1px solid rgba(0, 0, 0, .35);
+}
+
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div p a:hover {
+    text-decoration: underline;
+}
