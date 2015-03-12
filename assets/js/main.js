@@ -17,3 +17,11 @@ $(document).scroll(function () {
         $("header").removeClass("scrollHeader").addClass("topHeader");
     }
 });
+
+function openMobileNav() {
+    if ($("#nav").hasClass("nav-closed")) {
+        $("#nav").removeClass("nav-closed");
+    } else {
+        $("#nav").addClass("nav-closed");
+    }
+}
