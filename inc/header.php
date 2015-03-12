@@ -61,7 +61,7 @@
             if ($section=='index') {
                 echo( '</div>');
             } else if ($section=='contact') {
-                echo('<center class="verticalAlign"><img src="assets/img/characters-contact.png" height="60%"></center></div>');
+                echo('<center class="verticalAlign"><img src="assets/img/characters-contact.png" height="50%"></center></div>');
             } else {
                 echo( '<center class="verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></center></div>');
             }

@@ -407,3 +407,12 @@ footer p {
 #contact-form textarea:focus {
     border: 1px solid rgba(0, 0, 0, .35);
 }
+
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div p a:hover {
+    text-decoration: underline;
+}
