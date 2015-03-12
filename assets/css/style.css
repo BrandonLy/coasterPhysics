@@ -320,3 +320,12 @@ sup {
     margin-left: 1.2em;
     padding-bottom: 1em;
 }
+.left-align {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.left-align a{
+    color: white;
+    text-decoration: none;
+}
