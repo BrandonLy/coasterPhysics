@@ -1,4 +1,5 @@
 <?php
+ $pageTitle="Contact" ; $section="contact" ; 
 //ini_set('display_errors', 'On');?>
 <?php
 
@@ -57,24 +58,28 @@ include("inc/header.php");
 include("inc/PHPMailerAutoload.php");
 ?>
 
-<h1>Contact Us!</h1>
+<div id="content">
+    <div class="content-wrapper">
+        <h1 class="areaTitle">Contact Us!</h1>
 
-<form method="post" action="contact.php">
+        <form id="contact-form" method="post" action="contact.php">
 
-    <label for="name">Name</label>
+            <label for="name">Name</label><br>
 
-    <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" required><br>
 
-    <label for="email">Email</label>
+            <label for="email">Email</label><br>
 
-    <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" required><br>
 
-    <label for="message">Message</label>
+            <label for="message">Message</label><br>
 
-    <textarea name="message" id="message" required>Tell us how we can you help you physics</textarea>
+            <textarea name="message" id="message" required>Tell us how we can you help you physics</textarea><br>
 
-    <input type="submit" value="Send">
+            <center><input type="submit" value="Send"></center>
 
-</form>
+        </form>
+    </div>
+</div>
 
 <?php include( "inc/footer.php"); ?>
