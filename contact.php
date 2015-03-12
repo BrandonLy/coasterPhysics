@@ -66,15 +66,15 @@ include("inc/PHPMailerAutoload.php");
 
             <label for="name">Name</label><br>
 
-            <input type="text" name="name" id="name" required><br>
+            <input type="text" name="name" id="name" placeholder="First and Last Name" required><br>
 
             <label for="email">Email</label><br>
 
-            <input type="email" name="email" id="email" required><br>
+            <input type="email" name="email" id="email" placeholder="Email@yourdomain.com" required><br>
 
             <label for="message">Message</label><br>
 
-            <textarea name="message" id="message" required>Tell us how we can you help you physics</textarea><br>
+            <textarea name="message" id="message" placeholder="Tell us how we can you help you physics" required></textarea><br>
 
             <center><input type="submit" value="Send"></center>
 
