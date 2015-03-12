@@ -541,3 +541,9 @@ footer div p a {
 footer div p a:hover {
     text-decoration: underline;
 }
+
+#video {
+    width: 60%;
+    height: 50%;
+}
+
