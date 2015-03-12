@@ -1,0 +1,339 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2d2d33;
+}
+
+.verticalAlign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#page-title {
+    color: whitesmoke;
+    font-size: 3.5em;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#nav {}
+
+.nav-closed {
+    display: none;
+}
+
+#nav ul {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#nav ul li {
+    padding: 25px 25px 25px 25px;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    color: whitesmoke;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#nav ul a {
+    text-decoration: none;
+}
+
+#page-picture {
+    width: 100%;
+    height: 325px;
+    background-size: cover;
+    background-color: grey;
+}
+
+.index-picture {
+    background-image: url(../img/home-bg-compressor.jpg);
+}
+
+.video-picture {
+    background-image: url(../img/video-bg-compressor.jpg);
+}
+
+.animation-picture {
+    background-image: url(../img/animation-bg-compressor.jpg);
+}
+
+.content-picture {
+    background-image: url(../img/content-bg-compressor.jpg);
+}
+
+.contact-picture {
+    background-image: url(../img/contact-bg-compressor.jpg);
+}
+
+#mobile-menu-button {
+    top: 25px;
+    right: 20px;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/hamburger.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#content {
+    padding: 20px;
+    background: #fff7e8;
+}
+
+.focusTitle {
+    font-family: "Raleway", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.focusParagraph {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25em;
+    font-size: 1.15em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.closed {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.open {
+    border: 1px solid #cccccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.areaTitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topPad {
+    padding-top: 10px;
+}
+
+.showhide {
+    float: right;
+    letter-spacing: .3em;
+}
+
+.materials {
+    margin-left: 1em;
+    list-style: circle;
+    padding-bottom: 1em;
+}
+
+.subcategory {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.procedures {
+    list-style-type: decimal;
+    margin-left: 1.2em;
+    padding-bottom: 1em;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+    background-color: #fff;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25em;
+    font-size: 1.15em;
+    font-weight: 100;
+}
+
+.accordion-content p {
+    padding-bottom: 1em;
+}
+
+.accordion-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #d9e6ee;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d33;
+    z-index: 1;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
