@@ -220,7 +220,7 @@ header {
     position: fixed;
     width: 30px;
     height: 30px;
-    background-image: url(../img/hamburger.png);
+    background-image: url(../img/hamburger-compressor.png);
     background-size: cover;
     cursor: pointer;
 }

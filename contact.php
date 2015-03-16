@@ -70,7 +70,7 @@ include("inc/PHPMailerAutoload.php");
 
             <label for="email">Email</label><br>
 
-            <input type="email" name="email" id="email" placeholder="Email@yourdomain.com" required><br>
+            <input type="email" name="email" id="email" placeholder="email@yourdomain.com" required><br>
 
             <label for="message">Message</label><br>
 
