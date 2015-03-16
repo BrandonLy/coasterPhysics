@@ -3,7 +3,7 @@
 <div id="home-tabs">
 
     <div id="tabs-wrapper">
-        <a href="video.php">
+        <a class="home-card" href="video.php">
             <div id="tab-1" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
                     <center><img src="assets/img/home.png" class="tab-image"></center>
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </a>
-        <a href="animation.php">
+        <a class="home-card" href="animation.php">
             <div id="tab-2" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
                     <center><img src="assets/img/model-compressor.png" class="tab-image"></center>
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </a>
-        <a href="content.php">
+        <a class="home-card" href="content.php">
             <div id="tab-3" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
                     <center><img src="assets/img/brandon.png" class="tab-image"></center>

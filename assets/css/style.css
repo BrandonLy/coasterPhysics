@@ -67,12 +67,14 @@ td {
     font-size: 100%;
     font-family: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 body {
     line-height: 1;
     color: black;
     background: white;
+    text-decoration: none;
 }
 
 :focus {
@@ -291,6 +293,7 @@ header {
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
 }
 
 .homeTab {
@@ -547,3 +550,11 @@ footer div p a:hover {
     height: 50%;
 }
 
+.home-card {
+    text-decoration: none;
+    text-decoration-color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+}

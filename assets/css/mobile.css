@@ -136,6 +136,10 @@ body {
     background-color: #2d2d33;
 }
 
+a {
+    text-decoration: none;x
+}
+
 .verticalAlign {
     position: relative;
     top: 50%;
@@ -422,6 +426,7 @@ footer div p a:hover {
 
 #tabs-wrapper {
     width: 100%;
+    text-decoration: none;
 }
 
 #tabs-wrapper a {
@@ -454,6 +459,7 @@ footer div p a:hover {
     padding-bottom: 30px;
     font-weight: 500;
     font-size: 1.35em;
+    text-decoration: none;
 }
 
 .tabBlurb {
@@ -462,6 +468,7 @@ footer div p a:hover {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 #video {
