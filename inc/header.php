@@ -1,3 +1,5 @@
+<?php
+$ROOT = $GLOBALS['base_url'];?>
 <html>
 
 <head>

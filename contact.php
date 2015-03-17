@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    require_once(ROOT_PATH . "inc/PHPMailerAutoload.php");
+    require_once($ROOT . "inc/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
     $mail->IsSMTP();                                      // Set mailer to use SMTP
