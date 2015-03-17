@@ -561,4 +561,9 @@ a:visited {
 
 .center {
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-pad {
+    margin-top: 5%;
 }

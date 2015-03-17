@@ -61,9 +61,9 @@ include("inc/PHPMailerAutoload.php");
 
     <div id="content">
         <div class="content-wrapper">
-<?php if(isset($_POST["status"]) AND ($_POST["status"] == "thanks")){ ?>
+<?php if(isset($_GET["status"]) AND ($_GET["status"] === "thanks")){ ?>
     <h1 class="areaTitle">Thanks for your submission!</h1>
-        <p class="focusParagraph">You'll hear back from a team member shortly!</p>
+        <p class="center">You'll hear back from a team member shortly!</p>
 <?php } else { ?>
 
         <h1 class="areaTitle">Contact Us!</h1>
