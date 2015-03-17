@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    require_once("inc/class.phpmailer.php");
+    require("inc/class.phpmailer.php");
     $mail = new PHPMailer();
 
     $mail->IsSMTP();                                      // Set mailer to use SMTP
