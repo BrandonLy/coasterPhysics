@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    require("inc/class.phpmailer.php");
+    require_once("inc/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
     $mail->IsSMTP();                                      // Set mailer to use SMTP
@@ -38,21 +38,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Password = 'aG7qkfrc1DDpU2MLMV2IKw';                  // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
-    if (!$mail->ValidateAddress($email)){
-        echo "You must specify a valid email address.";
-        exit;
-    }
+    $mail->From = $email;
+    $mail->FromName = $name;
+    $mail->AddAddress('lypanda1@gmail.com');               // Name is optional
 
-    $email_body = "";
-    $email_body = $email_body . "Name: " . $name . "<br>";
-    $email_body = $email_body . "Email: " . $email . "<br>";
-    $email_body = $email_body . "Message: " . $message;
+    $mail->IsHTML(true);                                  // Set email format to HTML
 
-    $mail->SetFrom($email, $name);
-    $address = "lypanda1@gmail.com";
-    $mail->AddAddress($address);
-    $mail->Subject    = "Physics Contact Submission " . $name;
-    $mail->MsgHTML($email_body);
+    $mail->Subject = 'Physics Site Contact Message';
+    $mail->Body    = '<h1>'. $name . '</h1>' . '<h2>' . $email . '</h2>' . '<p>' . $message . '</p>';
 
     if(!$mail->Send()) {
       echo "There was a problem sending the email: " . $mail->ErrorInfo;
