@@ -545,7 +545,7 @@ footer div p a:hover {
     text-decoration: underline;
 }
 
-#video {
+.video {
     width: 60%;
     height: 50%;
 }
@@ -557,4 +557,8 @@ footer div p a:hover {
 
 a:visited {
     text-decoration: none;
+}
+
+.center {
+    text-align: center;
 }

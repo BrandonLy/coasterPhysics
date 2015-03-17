@@ -17,6 +17,15 @@
             <p>Normal force is the force applied to an object by a surface. A very basic example involves a person standing still. The two forces acting upon them are normal and gravity. Gravity is causing the person to accelerate towards Earth, while the Earth is pushing back on the person. This force is exactly the same amount as the gravitational pull on the person. This phenomenom is normal force.</p>
             <p>So on a roller coaster, the cart and tracks supply the normal force for the riders. As the riders reach the peak of the loop, they are upside down. Gravity also pulls straight down, nothing unusual about that. However, out of the ordinary is the direction the normal force is being applied. We often associate normal force with always facing upwards, because most of our surfaces are flat and horizontal, but normal force is always perpendicular to the surface. So when a person is upside down, the normal force and Gravity are acting in the same direction. This results in a perceived decreased weight. The inverse applies when a person has reached the bottom of the roller coaster.</p>
         </div>
+        <h3 class="focusTitle">Utilizing the Central Force Equation</h3>
+        <p class="focusParagraph">Just having an equation won't do you any good. How about we learn how to solve a problem using the equation we just found?</p>
+
+        <div class="accordion-title closed">Click below to watch a video demonstration...
+            <div class="showhide">[+]</div>
+        </div>
+        <div class="accordion-content">
+            <p class="center"><iframe class="video" src="https://www.youtube.com/embed/dT3lF0BB9rg" frameborder="0" allowfullscreen></iframe></p>
+        </div>
 
         <h3 class="focusTitle">Energy</h3>
         <p class="focusParagraph">Energy is present all around us. It's there when we're riding in a car or riding a coaster. It can take on many different forms and affect us in a large range of ways. Roller coasters demonstrate the change between what energy we can utilize and the energy we are currently making use of beautifully. In it we can see how at each point during the ride a different level of energy is being exerted, in addition to the countless trials and errors coming together to make a passable loop.</p>
@@ -28,6 +37,15 @@
             <p>In physics, there's this thing known as the conservation of energy. The basic principle is that although energy may change forms and be transferred through different mediums, it will always be there. It's kind of like matter in that it will never be destroyed, only changed. You may have heard of potential energy, or the energy that an object possesses, allowing it to do work. Here we are going to discuss it in terms of <i>mgh</i> or mass times gravity times height.</p>
             <p>If you take a look at a roller coaster's loop, you might notice it isn't a perfect circle. The upside down tear shape is actually known as a clothoid. This shape is special because of the difference in radius at the top and bottom. This interesting concept wasn't the first choice for designers. Initially they chose to use perfect circles. However, over time, too many problems arose. If the riders weren't launched at high enough speeds they would fall off the track as they became inverted. Seems like a simple solution. Just make them go faster, right? Wrong. In order to reach a high enough speed to complete the loop, the forces would grow beyond a safe limit. The designers consistently found that their riders were becoming injured.</p>
             <p>The energy present on a coaster comes in a variety of different forms. It would technically be classified as a mechanical energy simply because there are a variety of different moving parts. However, gravitational and heat energy are both present. The gravitational energy comes from Earth's gravitational pull on the coaster. The heat energy comes from the friction between the tracks and wheels. The heat energy is minimal because wheels and on a smooth surface don't tend to have a large frictional coefficient.</p>
+        </div>
+        <h3 class="focusTitle">Solving an Energy Problem</h3>
+        <p class="focusParagraph">Need help solving a word problem involving energy?</p>
+
+        <div class="accordion-title closed">Click below to watch a video demonstration...
+            <div class="showhide">[+]</div>
+        </div>
+        <div class="accordion-content">
+            <p class="center"><iframe class="video" src="https://www.youtube.com/embed/d4Lnu2xUuoM" frameborder="0" allowfullscreen></iframe></p>
         </div>
 
         <h3 class="focusTitle">Acceleration</h3>
@@ -98,42 +116,6 @@
             <p>Now that you have all of these data points, what do you do with them? The best thing to do in this situation is to graph each of your data points. Remember that your independent variable goes on the x-axis and the dependent variable goes on the y-axis. As you are graphing the different data sets, keep in mind the shapes that you are seeing. Are they curved? Are they straight? Are they inverse? Its important that you linearize your graphs afterwards. Pay attention to the parent graphs. If the graph is one of ax<sup>2</sup>+bx+c make sure that you square the x variables as you are making a linear graph. It's also very important that you actually graph the adjusted results to make sure it is in fact a straight line. Write down how the force of tension is proportional to each of the variables we tested earlier.</p>
             <p>If you did this correctly you should have found that F<sub>T</sub> is directly proportional to mass, proportional to velocity square, and inversely proportional to the radius squared. If you were to put all of these into one equation, you would find the equation for centripetal force. Where a physicist might spend hours manipulating numbers and variables in order to develop a proof, you took three graphs and found the same result.</p>
         </div>
-
-        <h3 class="focusTitle">Solving an Equation</h3>
-        <p class="focusParagraph">Just having an equation won't do you any good. How about we learn how to solve a problem using the equation we just found?</p>
-
-        <div class="accordion-title closed">Click below to watch a video demonstration...
-            <div class="showhide">[+]</div>
-        </div>
-        <div class="accordion-content">
-            <p>The sped up video will go here...</p>
-        </div>
-        <!--
-        The site needs to be understood by an 8th grader
-        The site needs diagrams, pictures, and graphs
-        The site needs a master equation-
-        Steps to get to the master equation-
-        Steps to manipulate the master equation to solve for a variable
-        Demonstrate how diagrams, graphs, and charts can help you solve the problem
-        Demonstrate the need to be accurate in the diagrams
-        Help the 8th graders decide which information wouldn't be needed to answer the equation
-        -->
-
-        <!--
-        The video needs to be 2-3 minutes maximum
-        The video needs to be broken up into different segments with voice overs
-        Each segment should have a description of what’s going on, make a claim, support that claim with evidence, and explain WHY the concept works.
-        -->
-
-        <!--
-        Idea – did you come up with the idea and how workable is it?
-        Data Collection – How did you get your Physics information, did you meet with me more than once?
-        Concept Explanation – Easy to understand and accurate.
-        Variables – Identified and defined the variables
-        Diagrams – Accurate
-        Display – Easy to navigate and covers the basics well.
-        -->
-
     </div>
 </div>
 
