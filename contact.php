@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    require_once("inc/PHPMailerAutoload.php");
+    require_once(ROOT_PATH . "inc/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
     $mail->IsSMTP();                                      // Set mailer to use SMTP
@@ -59,8 +59,13 @@ include("inc/header.php");
 include("inc/PHPMailerAutoload.php");
 ?>
 
-<div id="content">
-    <div class="content-wrapper">
+    <div id="content">
+        <div class="content-wrapper">
+<?php if(isset($_POST["status"]) AND ($_POST["status"] == "thanks")){ ?>
+    <h1 class="areaTitle">Thanks for your submission!</h1>
+        <p class="focusParagraph">You'll hear back from a team member shortly!</p>
+<?php } else { ?>
+
         <h1 class="areaTitle">Contact Us!</h1>
 
         <form id="contact-form" method="post" action="contact.php">
@@ -80,6 +85,7 @@ include("inc/PHPMailerAutoload.php");
             <center><input type="submit" value="Send"></center>
 
         </form>
+<?php } ?>
     </div>
 </div>
 
