@@ -3,7 +3,9 @@
 <div id="content">
     <div class="content-wrapper">
         <center>
-            <p>The animation will go here</p>
+            <iframe class="video" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+            <p class="focusParagraph">This is a placeholder video for our animation.</a>
+            </p>
         </center>
     </div>
 </div>
