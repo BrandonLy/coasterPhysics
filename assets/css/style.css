@@ -377,7 +377,7 @@ sup {
 
 .tab-image {
     cursor: pointer;
-    width: 100%;
+    width: 90%;
 }
 
 #page-title {
@@ -386,6 +386,7 @@ sup {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
+    text-shadow: 0px 1px 8px #000000;
 }
 
 #content {
