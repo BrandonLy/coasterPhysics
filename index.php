@@ -15,7 +15,7 @@
         <a class="home-card" href="animation.php">
             <div id="tab-2" class="homeTab">
                 <div class="tabcontentWrapper verticalAlign">
-                    <center><img src="assets/img/model-compressor.png" class="tab-image"></center>
+                    <center><img src="assets/img/jonnyboy.png" class="tab-image"></center>
                     <h3 class="tabTitle">our animation</h3>
                     <p class="tabBlurb">Take a look at how our animators recreated the coaster and how the physics played their part!</p>
                 </div>
