@@ -4,7 +4,7 @@
     <div class="content-wrapper">
         <center>
             <iframe class="video" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
-            <p class="focusParagraph">This is a placeholder video for our animation.</a>
+            <p class="focusParagraph top-padding">This is a placeholder video for our animation.</a>
             </p>
         </center>
     </div>
