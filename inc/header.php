@@ -5,8 +5,8 @@ $ROOT = $GLOBALS['base_url'];?>
 <head>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="(min-width: 1300px)">
-    <link type="text/css" rel="stylesheet" href="assets/css/mobile.css" media="(max-width: 1300px)">
+    <link type="text/css" rel="stylesheet" href="assets/css/style-min.css" media="(min-width: 1300px)">
+    <link type="text/css" rel="stylesheet" href="assets/css/mobile-min.css" media="(max-width: 1300px)">
     <title>
         <?php echo $pageTitle; ?>
     </title>
