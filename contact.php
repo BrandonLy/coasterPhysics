@@ -1,5 +1,6 @@
 <?php
  $pageTitle="Contact" ; $section="contact" ;
+ include('inc/smtpKeys.php');
 //ini_set('display_errors', 'On');?>
 <?php
 
@@ -34,13 +35,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
     $mail->Port = 587;                                    // Set the SMTP port
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'lypanda1@gmail.com';                // SMTP username
-    $mail->Password = 'aG7qkfrc1DDpU2MLMV2IKw';                  // SMTP password
+    $mail->Username = $apiEmail;                // SMTP username
+    $mail->Password = $apiKey;                  // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
     $mail->From = $email;
     $mail->FromName = $name;
-    $mail->AddAddress('lypanda1@gmail.com');               // Name is optional
+    $mail->AddAddress($sendEmail);               // Name is optional
 
     $mail->IsHTML(true);                                  // Set email format to HTML
 
