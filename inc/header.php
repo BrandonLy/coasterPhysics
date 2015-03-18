@@ -62,7 +62,7 @@ $ROOT = $GLOBALS['base_url'];?>
 
         <?php
             if ($section=='index') {
-                echo( '<center class="verticalAlign"><h1 id="page-title">PHP: Hydropowered Penguins</h1></center></div>');
+                echo( '<center class="verticalAlign"><h1 id="page-title">PHP: Hydropowered Penguins</h1><h3 id="page-subtitle">Coaster Physics</h3></center></div>');
             } else if ($section=='contact') {
                 echo('<center class="verticalAlign"><img src="assets/img/characters-contact-compressor.png" height="50%"></center></div>');
             } else {
