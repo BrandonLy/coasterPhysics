@@ -31,13 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     require_once($ROOT . "inc/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
-    $mail->IsSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
-    $mail->Port = 587;                                    // Set the SMTP port
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = $apiEmail;                // SMTP username
-    $mail->Password = $apiKey;                  // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+//    $mail->IsSMTP();                                      // Set mailer to use SMTP
+//    $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
+//    $mail->Port = 587;                                    // Set the SMTP port
+//    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+//    $mail->Username = $apiEmail;                // SMTP username
+//    $mail->Password = $apiKey;                  // SMTP password
+//    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
     $mail->From = $email;
     $mail->FromName = $name;
