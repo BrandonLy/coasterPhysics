@@ -58,8 +58,8 @@
         </div>
         <div class="accordion-content">
             <p>The difference between speed and velocity is that velocity includes direction in speed. Acceleration is a change in velocity. So if an object is moving in a circular path at a constant speed, is it accelerating? It is because the direction is constantly changing the entire time. This acceleration towards the center is described up above as centripetal force.</p>
-            <p>The acceleration during a change on altitude is also unique. There's a special measure for gravity that we call G's. G is the force of gravity here on Earth at sea level. So we measure gravity in other places based on how you feel in relation to what you would feel. One G is equivalent to an acceleration rate of 9.8m/s<sup>2</sup>. As you are going up and down in altitude quickly your inertia is causing you to feel as though the force of gravity has changed, even though it is a static force.</p>
-            <p></p>
+            <p>The acceleration during a change on altitude is also unique. There's a special measure for gravity that we call G's. G is the force of gravity here on Earth at sea level. So we measure gravity in other places based on how you feel in relation to what you would feel. One G is equivalent to an acceleration rate of -9.8m/s<sup>2</sup>. As you are going up and down in altitude quickly your inertia is causing you to feel as though the force of gravity has changed, even though it is a static force.</p>
+            <p>On roller coasters, we see lots of different rates of acceleration. For example, when a rider is going upwards, they are feeling a greater downwards acceleration. When they are going down the hill, they are feeling a smaller acceleration rate. There's plenty of examples of this happening in different places. One might be a pilot quickly entering a dive. The extreme change in acceleration can actually cause him to red out while the blood rushes to his brain. Or even just standing on the moon, you are experiencing a different G-force because the moon has a different gravitional force than Earth(1.622 m/s²).</p>
         </div>
 
 
