@@ -578,3 +578,7 @@ a:visited {
 .top-pad {
     margin-top: 5%;
 }
+
+.top-padding {
+    padding-top: 20px;
+}
