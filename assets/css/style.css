@@ -593,9 +593,15 @@ a:visited {
 }
 
 .formula {
-    max-width: 30%;
+    max-width: 40%;
 }
 
 .equations{
-    display: inline-block;
+    display: block;
+    text-align: center;
+}
+
+.formula-caption {
+    font-size: 1.2em;
+    font-weight: bold;
 }

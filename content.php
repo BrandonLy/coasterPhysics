@@ -14,10 +14,13 @@
         <div class="accordion-content">
            <div class="equations">
                <p>You'll want to reference these equations throughout this segment of information...</p>
-               <img class="formula" src="assets/img/formulas/centripetal-force-equation-compressor.png" alt="Force equals mass times velocity squared over radius">
-               <span class="formula-caption">Centripetal Force</span>
-               <img class="formula" src="assets/img/formulas/centripetal-acceleration-equation-compressor.png" alt="Acceleration equals velocity squared over radius">
-               <span class="formula-caption">Centripetal Acceleration</span>
+               <p>
+                   <span class="formula-caption">Centripetal Force</span></br>
+                   <img class="formula" src="assets/img/formulas/centripetal-force-equation-compressor.png" alt="Force equals mass times velocity squared over radius">
+               </p>
+                <p><span class="formula-caption">Centripetal Acceleration</span></br>
+                   <img class="formula" src="assets/img/formulas/centripetal-acceleration-equation-compressor.png" alt="Acceleration equals velocity squared over radius">
+                </p>
            </div>
             <p>The equation for centripetal force is modeled above. The F represents force, the m mass, v velocity, and r the radius of the circular path. Not only does Centripetal Force have its own equation for force, there is also an equation for calculating centripetal acceleration, which can be modeled above as well.This force plays an important role in many different parts of life. The most important thing that centripetal force does for us would have to be preventing objects from flying all willy-nilly. Imagine a world where the moon didn't orbit the Earth, the Earth didn't orbit the Sun, the sun didn't have an orbit in our solar system. We wouldn't be alive today. Speaking of the moon, back in the 1600's Sir Isaac Newton had plenty of time to think about the moon and Earth's relationship. He figured that some force must be acting upon it in order to prevent it from traveling away. This was the beginning work on centripetal force.</p>
             <p>Now, clearly the technology exists to make insanely fast roller coasters. So why don't we? The main reason is that faster speeds do not always create a more enjoyable ride. Typically people like the "weightlessness" associated with riding. The credit for this feeling can be given to the normal forces on a coaster changing. Now to understand why, it's important to understand how normal force works.</p>
@@ -42,6 +45,17 @@
             <div class="showhide">[+]</div>
         </div>
         <div class="accordion-content">
+           <div class="equations">
+               <p>You'll want to reference these equations throughout this segment of information...</p>
+               <p>
+                   <span class="formula-caption">Potential Energy due to Gravity</span></br>
+                   <img class="formula" src="assets/img/formulas/potential-energy-equation-compressor.png" alt="gravitational energy equals mass times height times gravity">
+               </p>
+               <p>
+                   <span class="formula-caption">Kinetic Energy</span></br>
+                   <img class="formula" src="assets/img/formulas/kinetic-energy-equation-compressor.png" alt="kinetic energy is half the mass times velocity squared">
+               </p>
+           </div>
             <p>In physics, there's this thing known as the conservation of energy. The basic principle is that although energy may change forms and be contained by different objects, it will always be there. It's kind of like matter in that it will never be destroyed, only changed. You may have heard of potential energy, or the energy that an object possesses, allowing it to do work, but there are many different types of stored energy. There's potential energy due to gravity, elasticity, chemical, the list goes on for quite some time. For roller coasters, the primary one is potential energy due to gravity because of the different hills and changes in height.</p>
             <p>If you take a look at a roller coaster's loop, you might notice it isn't a perfect circle. The upside down tear shape is actually known as a clothoid. This shape is special because of the difference in radius at the top and bottom. This interesting concept wasn't the first choice for designers. Initially they chose to use perfect circles. However, over time, too many problems arose. If the riders weren't launched at high enough speeds they would fall off the track as they became inverted. Seems like a simple solution. Just make them go faster, right? Wrong. In order to reach a high enough speed to complete the loop, the forces would grow beyond a safe limit. The designers consistently found that their riders were becoming injured.</p>
             <p>So as far as how much energy is on a roller coaster, the large majority of it comes from gravity. When measuring potential due to gravity we use the formula <i>mgh</i>. So the higher an object is, the higher up it is, or the stronger the force of gravity acting upon it, the more energy it has just waiting to be used. The great thing about energy though, is that if you know the energy before an event, you can usually find out where the energy went afterwards. For example, let's say there's a roller coaster sitting up on a hill. We can safely assume that its energy is coming from gravity. If we also know that coaster's mass and height, we can find how many joules are stored. In case you didn't know, joules (Newtons times meters) are the units of energy. We can create an equation from here using event A and B.</p>
@@ -64,8 +78,18 @@
             <div class="showhide">[+]</div>
         </div>
         <div class="accordion-content">
+           <div class="equations">
+               <p>You'll want to reference these equations throughout this segment of information...</p>
+               <p>
+                   <span class="formula-caption">A Single Gravitational Unit</span></br>
+                   <img class="formula" src="assets/img/formulas/1-G-compressor.png" alt="1 G equals negative 9.8 meters per second squared">
+               </p>
+                <p><span class="formula-caption">Two Gravitational Units</span></br>
+                   <img class="formula" src="assets/img/formulas/2-G-compressor.png" alt="2 G equals negative 19.6 meters per second squared">
+                </p>
+           </div>
             <p>The difference between speed and velocity is that velocity includes direction in speed. Acceleration is a change in velocity. So if an object is moving in a circular path at a constant speed, is it accelerating? It is because the direction is constantly changing the entire time. This acceleration towards the center is described up above as centripetal force.</p>
-            <p>The acceleration during a change on altitude is also unique. There's a special measure for gravity that we call G's. G is the force of gravity here on Earth at sea level. So we measure gravity in other places based on how you feel in relation to what you would feel. One G is equivalent to an acceleration rate of -9.8m/s<sup>2</sup>. As you are going up and down in altitude quickly your inertia is causing you to feel as though the force of gravity has changed, even though it is a static force.</p>
+            <p>The acceleration during a change on altitude is also unique. There's a special measure for gravity that we call G's. G is the force of gravity here on Earth at sea level. So we measure gravity in other places based on how you feel in relation to what you would feel. One G is equivalent to an acceleration rate of -9.8 meters per second squared (listed above). As you are going up and down in altitude quickly your inertia is causing you to feel as though the force of gravity has changed, even though it is a static force.</p>
             <p>On roller coasters, we see lots of different rates of acceleration. For example, when a rider is going upwards, they are feeling a greater downwards acceleration. When they are going down the hill, they are feeling a smaller acceleration rate. There's plenty of examples of this happening in different places. One might be a pilot quickly entering a dive. The extreme change in acceleration can actually cause him to red out while the blood rushes to his brain. Or even just standing on the moon, you are experiencing a different G-force because the moon has a different gravitional force than Earth(1.622 m/s²).</p>
         </div>
 

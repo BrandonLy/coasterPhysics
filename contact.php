@@ -10,14 +10,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = trim($_POST["message"]);
     $bot_field = trim($_POST["bots"]);
 
+    //start google captcha
     $recaptcha=$_POST['g-recaptcha-response'];
     if(!empty($recaptcha)) {
+        //loads code to be used data to sort of parse google's results
         include("inc/getCurlData.php");
+        //sets the base url that google will use to verify the api key
         $google_url="https://www.google.com/recaptcha/api/siteverify";
+        //sets the ip address to the current server's
         $ip=$_SERVER['REMOTE_ADDR'];
+        //concatenates the above information to check with google's server
         $url=$google_url."?secret=".$secret."&response=".$recaptcha."&remoteip=".$ip;
+        //sets $res to be equal to the information the site kicks back
         $res=getCurlData($url);
     }
+    //end google captcha
 
     if ($name == "" OR $email == "" OR $message == "") {
         echo "You must specify a value for name, email address, and message.";
@@ -36,17 +43,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Your form submission has an error.";
         exit;
     }
+
+    //checks to make sure the bot didn't fill out the display:none field and checks the value of $res at the key of 'success' (will return either true or false
     if($bot_field === '' AND $res['success']) {
     require_once($ROOT . "inc/phpmailer/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
-    $mail->IsSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
-    $mail->Port = 587;                                    // Set the SMTP port
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = $apiEmail;                // SMTP username
-    $mail->Password = $apiKey;                  // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+//    $mail->IsSMTP();                                      // Set mailer to use SMTP
+//    $mail->Host = 'smtp.mandrillapp.com';                 // Specify main and backup server
+//    $mail->Port = 587;                                    // Set the SMTP port
+//    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+//    $mail->Username = $apiEmail;                // SMTP username
+//    $mail->Password = $apiKey;                  // SMTP password
+//    $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
     $mail->From = $email;
     $mail->FromName = $name;
