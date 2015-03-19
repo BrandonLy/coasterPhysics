@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Your form submission has an error.";
         exit;
     }
-    if($bot_field === '') {
+    if($bot_field === '' AND $res['success']) {
     require_once($ROOT . "inc/phpmailer/PHPMailerAutoload.php");
     $mail = new PHPMailer();
 
