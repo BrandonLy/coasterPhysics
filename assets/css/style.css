@@ -558,7 +558,8 @@ footer div p a:hover {
 
 .video {
     width: 60%;
-    height: 50%;
+    min-height: 300px;
+    height: 130%;
 }
 
 .home-card {
@@ -581,4 +582,20 @@ a:visited {
 
 .top-padding {
     padding-top: 20px;
+}
+
+#bots {
+    display: none;
+}
+
+.characters img{
+    max-width: 30%;
+}
+
+.formula {
+    max-width: 30%;
+}
+
+.equations{
+    display: inline-block;
 }

@@ -497,3 +497,12 @@ footer div p a:hover {
 }
 
 .top-padding{padding-top:20px}
+
+#bots {
+    display:none;
+}
+
+.characters img{
+    margin: 0 auto;
+    max-width: 50%;
+    }

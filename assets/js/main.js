@@ -25,3 +25,9 @@ function openMobileNav() {
         $("#nav").addClass("nav-closed");
     }
 }
+
+$('.submit-form').click(function() {
+    if($('.bots').val() !== '') {
+        $('.bots').prop('disabled', true);
+}
+});

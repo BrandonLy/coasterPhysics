@@ -1,12 +1,13 @@
 <?php
 $ROOT = $GLOBALS['base_url'];?>
+<!DOCTYPE html>
 <html>
 
 <head>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="assets/css/style-min.css" media="(min-width: 1300px)">
-    <link type="text/css" rel="stylesheet" href="assets/css/mobile-min.css" media="(max-width: 1300px)">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" media="(min-width: 1300px)">
+    <link type="text/css" rel="stylesheet" href="assets/css/mobile.css" media="(max-width: 1300px)">
     <title>
         <?php echo $pageTitle; ?>
     </title>
@@ -30,6 +31,7 @@ $ROOT = $GLOBALS['base_url'];?>
     <meta name="msapplication-TileImage" content="assets/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- End Favicons -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -62,10 +64,10 @@ $ROOT = $GLOBALS['base_url'];?>
 
         <?php
             if ($section=='index') {
-                echo( '<center class="verticalAlign"><h1 id="page-title">PHP: Hydropowered Penguins</h1><h3 id="page-subtitle">Coaster Physics</h3></center></div>');
+                echo( '<div class="center verticalAlign"><h1 id="page-title">PHP: Hydropowered Penguins</h1><h3 id="page-subtitle">Coaster Physics</h3></div></div>');
             } else if ($section=='contact') {
-                echo('<center class="verticalAlign"><img src="assets/img/characters-contact-compressor.png" height="50%"></center></div>');
+                echo('<div class="center verticalAlign characters top-padding"><img src="assets/img/characters-contact-compressor.png"></div></div>');
             } else {
-                echo( '<center class="verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></center></div>');
+                echo( '<div class="center verticalAlign"><h1 id="page-title">' . $pageTitle . '</h1></div></div>');
             }
         ?>
