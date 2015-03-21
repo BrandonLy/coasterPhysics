@@ -137,7 +137,7 @@ body {
 }
 
 a {
-    text-decoration: none;x
+    text-decoration: none;
 }
 
 .verticalAlign {
@@ -160,24 +160,18 @@ header {
 
 #page-title {
     color: whitesmoke;
-    font-size: 3.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif 800 3.5em;
     text-transform: uppercase;
-    font-weight: 800;
     text-shadow: 0px 1px 8px #000000;
 }
 
 #page-subtitle {
     padding-top: 20px;
     color: whitesmoke;
-    font-size: 2em;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif 800 2em;
     text-transform: uppercase;
-    font-weight: 800;
     text-shadow: 0px 1px 8px #000000;
 }
-
-#nav {}
 
 .nav-closed {
     display: none;
@@ -190,11 +184,9 @@ header {
 #nav ul li {
     padding: 25px 25px 25px 25px;
     list-style-type: none;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif 100 1.25em;
     text-transform: uppercase;
-    font-size: 1.25em;
     color: whitesmoke;
-    font-weight: 100;
     text-decoration: none;
 }
 
@@ -246,19 +238,14 @@ header {
 }
 
 .focusTitle {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif 100 2em;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 2em;
-    font-weight: 100;
     text-transform: uppercase;
 }
 
 .focusParagraph {
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.25em;
-    font-size: 1.15em;
-    font-weight: 100;
+    font-family: "Open Sans", sans-serif 100 1.15em/1.25em;
     margin-bottom: 10px;
 }
 
@@ -274,9 +261,7 @@ header {
 }
 
 .areaTitle {
-    font-family: "Raleway", sans-serif;
-    font-size: 2.5em;
-    font-weight: 100;
+    font: "Raleway", sans-serif 100 2.5em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -297,9 +282,7 @@ header {
 }
 
 .subcategory {
-    font-family: "Raleway", sans-serif;
-    font-size: 1.2em;
-    font-weight: 100;
+    font-family: "Raleway", sans-serif 100 1.2em;
     text-transform: uppercase;
 }
 
@@ -318,10 +301,7 @@ header {
     border-bottom: 1px solid #cccccc;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.25em;
-    font-size: 1.15em;
-    font-weight: 100;
+    font-family: "Open Sans", sans-serif 100 1.15em/1.25em;
 }
 
 .accordion-content p {
@@ -329,9 +309,7 @@ header {
 }
 
 .accordion-title {
-    font-family: "Raleway", sans-serif;
-    font-size: 1em;
-    font-weight: 100;
+    font-family: "Raleway", sans-serif 100 1em;
     text-transform: uppercase;
     background-color: #d9e6ee;
     padding: 10px;
@@ -359,9 +337,7 @@ footer p {
 }
 
 #contact-form label {
-    font-family: "Raleway", sans-serif;
-    font-size: 1.25em;
-    font-weight: 100;
+    font-family: "Raleway", sans-serif 100 1.25em;
     text-transform: uppercase;
 }
 
@@ -390,9 +366,7 @@ footer p {
     width: 100%;
     padding: 15px;
     border-radius: 5px;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.25em;
-    font-weight: 100;
+    font-family: "Raleway", sans-serif 100 1.25em;
     text-transform: uppercase;
     background-color: #408dd9;
     transition: .5s all;
@@ -413,9 +387,7 @@ footer p {
     border-radius: 5px;
     padding: 5px;
     resize: vertical;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
+    font-family: 'Open Sans', sans-serif 300 1em;
 }
 
 #contact-form textarea:focus {
@@ -463,13 +435,11 @@ footer div p a:hover {
 }
 
 .tabTitle {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif 500 1.35em;
     text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 1.35em;
     text-decoration: none;
 }
 
