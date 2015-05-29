@@ -416,6 +416,7 @@ footer p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 #contact-form textarea:focus {
@@ -505,4 +506,17 @@ footer div p a:hover {
 .characters img{
     margin: 0 auto;
     max-width: 50%;
-    }
+}
+
+.relative {
+    position: relative;
+    height: 84px;
+}
+
+.captcha {
+    width: 304px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

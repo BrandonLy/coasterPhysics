@@ -540,7 +540,7 @@ sup {
     resize: vertical;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    value:
+    margin-bottom: 20px;
 }
 
 #contact-form textarea:focus {
@@ -604,4 +604,17 @@ a:visited {
 .formula-caption {
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.relative {
+    position: relative;
+    height: 84px;
+}
+
+.captcha {
+    width: 304px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }

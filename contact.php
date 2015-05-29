@@ -85,11 +85,11 @@ include("inc/header.php");
     <div id="content">
         <div class="content-wrapper">
 <?php if(isset($_GET["status"]) AND ($_GET["status"] === "thanks")){ ?>
-    <h1 class="areaTitle">Thanks for your submission!</h1>
+    <h1 class="areaTitle top-padding">Thanks for your submission!</h1>
         <p class="center">You'll hear back from a team member shortly!</p>
 <?php } else {
     if(isset($_GET["status"]) AND ($_GET["status"] === "error")) { ?>
-    <h1 class="areaTitle">There seems to be a problem with your form</h1>
+    <h1 class="areaTitle top-padding">There seems to be a problem with your form</h1>
 <?php } ?>
 
 <?php if(!isset($_GET["status"])) { ?>
@@ -111,8 +111,13 @@ include("inc/header.php");
 
             <textarea name="message" id="message" placeholder="Tell us how we can you help you physics" required></textarea><br>
 
-            <div class="g-recaptcha" data-sitekey="6LfruQMTAAAAAM8ApgBVcJMvYvuFKteoNqcl0c6E"></div>
+            <div class="relative">
 
+                <div class="captcha">
+                    <div class="g-recaptcha" data-sitekey="6LfruQMTAAAAAM8ApgBVcJMvYvuFKteoNqcl0c6E"></div>
+                </div>
+
+                </div>
             <div class="center"><input class="submit-form" type="submit" value="Send"></div>
 
         </form>
